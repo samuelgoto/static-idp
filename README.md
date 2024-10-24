@@ -13,15 +13,15 @@ Then, in a browser, call:
 
 ```javascript
 await navigator.credentials.get({
+  mediation: "required",
   identity: {
-     context: "signup",
-     mode: "button",
-     mediation: "required",
-     providers: [{
-         configURL: "http://localhost:8080/fedcm.json",
-         clientId: "1234",
-         nonce: "5678",
-     }]
+    context: "signup",
+    mode: "button",
+    providers: [{
+      configURL: "http://localhost:8080/fedcm.json",
+      clientId: "1234",
+      nonce: "5678",
+    }]
   } 
 })
 ```

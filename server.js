@@ -29,11 +29,15 @@ app.use("/fedcm.json", async function (req, res, next) {
     login_url: "/",
     // types: ["indieauth"],
     branding: {
-	     background_color: "green",
-	     color: "#FFEEAA",
+	     background_color: "#1a73e8",
+	     color: "#fff",
 	     icons: [{
-        url:  "https://static.thenounproject.com/png/362206-200.png",
-	     }],
+        url: "https://accounts.google.com/gsi-static/google-logo.png",
+        size: 32
+      }, {
+        url: "https://accounts.google.com/gsi-static/google-logo_40.png",
+        size: 40
+      }]
     },
   });
 });
