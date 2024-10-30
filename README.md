@@ -1,6 +1,6 @@
-# static-fedcm
+# static-idp
 
-This is the simplest FedCM server that serves static and hardcoded information. It is useful for testing purposes.
+This is the simplest FedCM IdP that serves static and hardcoded information. It is useful for testing purposes.
 
 Installing:
 
